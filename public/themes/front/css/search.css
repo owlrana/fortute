@@ -1,0 +1,17 @@
+.navbar-collapse form[role="search"] { position: absolute; top: 0px; right: 0px; width: 100%; padding: 0px; margin: 0px; z-index: 0; }
+.navbar-collapse form[role="search"] button, .navbar-collapse form[role="search"] input { padding: 8px 12px; border-radius: 0px; border-width: 0px; color: #fff; background: #1E2124 none repeat scroll 0 0; border-color: rgb(231, 231, 231); box-shadow: none; outline: none; }
+.navbar-collapse form[role="search"] input { padding: 16px 12px; font-size: 14pt; font-style: italic; color: rgb(160, 160, 160); box-shadow: none; }
+.navbar-collapse form[role="search"] button[type="reset"] { display: none; }
+.search_bg { background: #1E2124 none repeat scroll 0 0; min-height: 102px; transition: all 0.5s ease }
+.top_search { line-height:102px; }
+.top_search { width:100%; }
+
+ @media (min-width: 768px) {
+.navbar-collapse form[role="search"] { width: 38px; }
+.navbar-collapse form[role="search"] button, .navbar-collapse form[role="search"] input { padding: 15px 12px; }
+.navbar-collapse form[role="search"] input { font-size: 18pt; opacity: 0; display: none; height: 100px; }
+.navbar-collapse form[role="search"].active { width: 80%; }
+.navbar-collapse form[role="search"].active button, .navbar-collapse form[role="search"].active input { display: table-cell; opacity: 1; }
+.navbar-collapse form[role="search"].active input { width: 100%; }
+}
+
